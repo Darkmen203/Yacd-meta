@@ -98,7 +98,7 @@ function SideBar(props: Props) {
 
   return (
     <div className={s.root}>
-      <div className={s.logo_hiddify} />
+      <div className={s.logo_rostovvpn} />
       <center>WebUI V0 Alpha</center>
       <div className={s.rows}>
         {pages.map(({ to, iconId, labelText }) => (
